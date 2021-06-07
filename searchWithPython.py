@@ -12,4 +12,5 @@ while True:
         webbrowser.open_new_tab(url)
         webbrowser.open_new_tab(url1)
     except  KeyboardInterrupt:
+        print()
         break
