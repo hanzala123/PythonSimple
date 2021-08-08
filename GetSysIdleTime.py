@@ -1,3 +1,8 @@
+'''
+Get the time the system was idle, meaning no mouse or keyboard activity, in seconds.
+'''
+
+
 from ctypes import Structure, windll, c_uint, sizeof, byref
 
 class LASTINPUTINFO(Structure):
